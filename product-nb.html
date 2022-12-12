@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/font/fontawesome/css/all.css">
+    <link rel="stylesheet" href="css/font/fontawesome/css/all.css">
+    <link rel="stylesheet" href="css/custom1.css">
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/animation1.css">
+    <link rel="stylesheet" href="css/spectre/spectre-exp.min.css">
+    <link rel="stylesheet" href="css/spectre/spectre-icons.min.css">
+    <link rel="stylesheet" href="css/spectre/spectre.min.css">
+    <link rel="stylesheet" href="css/font/fontawesome/themify-icons-font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="css/all.css">
+    <script src="css/style.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <section id="header-desktop" class="hide-sm">
+            <div class="container">
+                <div class="d-flex justify-between align-middle px-5">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="img/logo.png " height="45px" alt="" />
+                        </a>
+                    </div>
+                    <div class="main-menu ">
+                        <ul class="d-flex align-middle justify-between">
+                            <li class="p10 mr5 bold-6">
+                                <a href="index.html">Trang Chủ</a>
+                            </li>
+                            <li class="p10 mr5 bold-6">
+                                <a href="intro.html">Giới Thiệu</a>
+                            </li>
+
+                            <li class="p10 mr5 bold-6">
+                                <a href="product-pt.html">Phụ Kiện Phòng Tắm<i class="ti-angle-down"></i></a>
+                            </li>
+
+                            <li class="p10 mr5 bold-6">
+                                <a href="product-nb.html">Phụ Kiện Nhà Bếp<i class="ti-angle-down"></i></a>
+                            </li>
+
+                            <li class="p10 mr5 bold-6">
+                                <a href="project.html">Dự Án</a>
+                            </li>
+
+                            <li class="p10 mr5 bold-6">
+                                <a href="post.html">Tin Tức </a>
+                            </li>
+
+                            <li class="p10 mr5 bold-6">
+                                <a href="contact.html">Liên Hệ</a>
+                            </li>
+                            <li class="p10 mr5 bold-6">
+                                <div>|</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="search pt15">
+                        <button><i class="ti-search bold-6 "></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="header-mobile" class="hide">
+            <div class="container">
+                <div class="d-flex justify-between align-middle py10">
+                    <!---------------------------------------------------
+                    // Sidebar : 
+                    //----------------------------------------------->
+
+                    <div><i class="fas fa-bars fa-lg"></i></div>
+
+                    <!---------------------------------------------------
+                    // Logo : 
+                    //----------------------------------------------->
+                    <div class="logo text-center w50">
+                        <a href="#"><img src="img/logo.png" alt="" /></a>
+                    </div>
+                    <!---------------------------------------------------
+                    // Giỏ hàng  : Badges
+                    //----------------------------------------------->
+                    <div class="text-h4"><i class=" ti-shopping-cart-full"></i></div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <section id="pannel">
+        <div class="container p30">
+            <div class=" name d-flex align-middle justify-between">
+                <div class="col-sm-12">
+                    <p class="text-h4 bold-6">Phụ kiện nhà bếp</p>
+                    <p>Trang Chủ / <strong>Phụ kiện nhà bếp</strong></p>
+                </div>
+                <div class="dropdown col-sm-12 hide-sm">
+                    <div class="btn-group">
+                        <a href="#" class="btn dropdown-toggle" tabindex="0">
+                            <p class="text-h6">Thứ Tự Mặc Định</p>
+                        </a>
+                        <!-- menu component -->
+                        <ul class="menu">
+                            <li><a>Thứ Tự Mặc Định</a></li>
+                            <li><a>Thứ Tự Theo Mức Độ Phổ Biến</a></li>
+                            <li><a>Thứ Tự Theo Điểm Đánh Giá</a></li>
+                            <li><a>Mới Nhất</a></li>
+                            <li><a>Thứ Tự Mặc Định</a></li>
+                            <li><a>Thứ Tự Theo Mức Độ Phổ Biến</a></li>
+                            <li><a>Thứ Tự Theo Điểm Đánh Giá</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="item-nb">
+        <div class="container pt50 pb50">
+            <div class="columns">
+                <div class="column col-3 hide-sm">
+                    <div class="p20 ml10 border mb20 ">
+                        <p class="text-h7 pb10 text-uppercase bold-6">Lọc theo giá</p>
+                        <div class="ngang mb15"></div>
+                        <input class="slider tooltip" type="range" min="0" max="100.000" value="50"
+                            oninput="this.setAttribute('value', this.value);">
+                    </div>
+                    <div class="p20 ml10 border mb20">
+                        <p class="text-h7 pb10 text-uppercase bold-6">Danh Mục Sản Phẩm</p>
+                        <div class="ngang mb15"></div>
+                        <p class="ds p10 mb5">Acor Series</p>
+                        <p class="ds p10 mb5">Combo Hotel</p>
+                        <p class="ds p10 mb5">Galaxy Series</p>
+                        <p class="ds p10 mb5">Phụ Kiện Phòng Tắm</p>
+                        <p class="ds p10 mb5">Rio Series</p>
+                        <p class="ds p10 mb5" style="border-bottom:none">Tesla Series</p>
+                    </div>
+                    <div c class="px20 pt20 ml10 border mb20">
+                        <p class="text-h7 pb10 text-uppercase bold-6">Sản Phẩm</p>
+                        <div class="ngang mb15"></div>
+                        <div class="d-flex justify-center mb20 pb10 border-bottom">
+                            <img src="img/pd2.jpg" width="60px" height="60px">
+                            <div class="pl10">
+                                <p class="text-h8 bold-4">Móc treo quần áo chữ U 9 chấu - HU9</p>
+                                <p class="text-do bold-6 py5">385,000 ₫</p>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-center mb20 pb10 border-bottom">
+                            <img src="img/pd2.jpg" width="60px" height="60px">
+                            <div class="pl10">
+                                <p class="text-h8 bold-4">Móc treo quần áo chữ U 9 chấu - HU9</p>
+                                <p class="text-do bold-6 py5">385,000 ₫</p>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-center mb20 pb10 ">
+                            <img src="img/pd2.jpg" width="60px" height="60px">
+                            <div class="pl10">
+                                <p class="text-h8 bold-4">Móc treo quần áo chữ U 9 chấu - HU9</p>
+                                <p class="text-do bold-6 py5">385,000 ₫</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px20 pt20 ml10 border">
+                        <p class="text-h7 pb10 text-uppercase bold-6">Từ Khóa Sản Phẩm</p>
+                        <div class="ngang mb15"></div>
+                        <a class="p-2 border mr-1 tag d-inline-block mb-2 text-h8" href="#">ACOR SERIES</a>
+                        <a class="p-2 border tag d-inline-block mb-2 text-h8" href="#">Bộ Phụ Kiện Phòng Tâm</a>
+                        <a class="p-2 border tag d-inline-block mb-2 text-h8" href="#">Bộ Phụ Kiện Phòng Tâm Cao Cấp</a>
+                        <a class="p-2 border tag d-inline-block mb-2 text-h8" href="#">Galaxy series</a>
+                        <a class="p-2 border tag d-inline-block mb-2 text-h8" href="#">inox304</a>
+                        <a class="p-2 border tag d-inline-block mb-2 text-h8" href="#">Bộ Phụ Kiện Phòng Tâm</a>
+                        <a class="p-2 border tag d-inline-block mb-2 text-h8" href="#">Bộ Phụ Kiện Phòng Tâm Cao Cấp</a>
+                        <a class="p-2 border tag d-inline-block mb-2 text-h8" href="#">Galaxy </a>
+                        <a class="p-2 border tag d-inline-block mb-2 text-h8" href="#">Thanh treo giường </a>
+                        <a class="p-2 border tag d-inline-block mb-2 text-h8" href="#">Thanh treo dao </a>
+                        <a class="p-2 border tag d-inline-block mb-2 text-h8" href="#">inox304</a>
+                        <a class="p-2 border tag d-inline-block mb-2 text-h8" href="#">Bộ Phụ Kiện Phòng Tâm</a>
+                        <a class="p-2 border tag d-inline-block mb-2 text-h8" href="#">Bộ Phụ Kiện Phòng Tâm Cao Cấp</a>
+                        <a class="p-2 border tag d-inline-block mb-2 text-h8" href="#">Galaxy </a>
+                        <a class="p-2 border tag d-inline-block mb-2 text-h8" href="#">Thanh treo giường </a>
+                        <a class="p-2 border tag d-inline-block mb-2 text-h8" href="#">Thanh treo dao </a>
+                        <a class="p-2 border tag d-inline-block mb-2 text-h8" href="#">Bộ Phụ Kiện Phòng Tâm</a>
+                        <a class="p-2 border tag d-inline-block mb-2 text-h8" href="#">Bộ Phụ Kiện Phòng Tâm Cao Cấp</a>
+                        <a class="p-2 border tag d-inline-block mb-2 text-h8" href="#">Galaxy </a>
+                        <a class="p-2 border tag d-inline-block mb-2 text-h8" href="#">Thanh treo giường </a>
+                        <a class="p-2 border tag d-inline-block mb-2 text-h8" href="#">Thanh treo dao </a>
+                    </div>
+                </div>
+                <div class="column col-9 col-sm-12">
+                    <div class="columns">
+                        <div class="column col-4 list col-sm-6 mb10">
+                            <div class="card p10 border">
+                                    <img class="img1" src="img/pd1.jpg">
+                                <div class="p10 col-sm-12">
+                                    <div class="text-center">Kệ chén 2 tầng 700mm – S2L7C-N</div>
+                                    <div class="text-center text-do bold-6">4.350.000đ</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column col-4 list col-sm-6 mb10">
+                            <div class="p10 border">
+                                <img src="img/pd1.jpg">
+                                <div class="p10 col-sm-12">
+                                    <div class="text-center">Kệ chén 2 tầng 700mm – S2L7C-N</div>
+                                    <div class="text-center text-do bold-6">4.350.000đ</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column col-4 list col-sm-6 mb10">
+                            <div class="p10 border">
+                                <img src="img/pd1.jpg">
+                                <div class="p10 col-sm-12">
+                                    <div class="text-center">Kệ chén 2 tầng 700mm – S2L7C-N</div>
+                                    <div class="text-center text-do bold-6">4.350.000đ</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column col-4 list col-sm-6 mb10">
+                            <div class="p10 border">
+                                <img src="img/pd1.jpg">
+                                <div class="p10 col-sm-12">
+                                    <div class="text-center">Kệ chén 2 tầng 700mm – S2L7C-N</div>
+                                    <div class="text-center text-do bold-6">4.350.000đ</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column col-4 list col-sm-6 mb10">
+                            <div class="p10 border">
+                                <img src="img/pd1.jpg">
+                                <div class="p10 col-sm-12">
+                                    <div class="text-center">Kệ chén 2 tầng 700mm – S2L7C-N</div>
+                                    <div class="text-center text-do bold-6">4.350.000đ</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column col-4 list col-sm-6 mb10">
+                            <div class="p10 border">
+                                <img src="img/pd1.jpg">
+                                <div class="p10 col-sm-12">
+                                    <div class="text-center">Kệ chén 2 tầng 700mm – S2L7C-N</div>
+                                    <div class="text-center text-do bold-6">4.350.000đ</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column col-4 list col-sm-6 mb10">
+                            <div class="p10 border">
+                                <img src="img/pd1.jpg">
+                                <div class="p10 col-sm-12">
+                                    <div class="text-center">Kệ chén 2 tầng 700mm – S2L7C-N</div>
+                                    <div class="text-center text-do bold-6">4.350.000đ</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column col-4 list col-sm-6 mb10">
+                            <div class="p10 border">
+                                <img src="img/pd1.jpg">
+                                <div class="p10 col-sm-12">
+                                    <div class="text-center">Kệ chén 2 tầng 700mm – S2L7C-N</div>
+                                    <div class="text-center text-do bold-6">4.350.000đ</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column col-4 list col-sm-6 mb10">
+                            <div class="p10 border">
+                                <img src="img/pd1.jpg">
+                                <div class="p10 col-sm-12">
+                                    <div class="text-center">Kệ chén 2 tầng 700mm – S2L7C-N</div>
+                                    <div class="text-center text-do bold-6">4.350.000đ</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt10">
+                        <div class="d-flex align-middle justify-center pt15">
+                            <button class="page s-circle mr-2  px10 py5">1</button>
+                            <button class="page s-circle mr-2  px10 py5">2</button>
+                            <button class="page s-circle mr-2  px10 py5">3</button>
+                            <button class="page s-circle mr-2  px10 py5">></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="container">
+            <div class="columns pt30 pb30 ">
+                <div class="column col-3 col-sm-12">
+                    <div class="text-white pb10 text-h6 bold-6 text-uppercase">Thông Tin Liên Lạc</div>
+                    <div class="ngang mb10"></div>
+                    <h6 class="text-white bold-4 pb10 pt10">Nhà máy sản xuất: 441 Hồ Học Lãm, P. An Lạc, Q. Bình Tân,
+                        TP. HCM</h6>
+                    <h6 class="text-white bold-4 pb10">090 117 8308 - 083 9088 889</h6>
+                    <h6 class="text-white bold-4 pb10">091 869 6997 - 090 1376 928</h6>
+                    <h6 class="text-white bold-4 pb10">bliroinox@gmail.com</h6>
+                    <h6 class="text-white bold-4 pb10">Thứ 2–Thứ 7 từ 08:00 – 21:00</h6>
+                </div>
+                <div class="column col-3 col-sm-12">
+                    <div class="text-white pb10 text-h6 bold-6 text-uppercase">Chính sách</div>
+                    <div class="ngang mb10"></div>
+                    <h6 class="text-white bold-4 pb10 pt10">Chính sách đổi trả</h6>
+                    <h6 class="text-white bold-4 pb10">Chính sách bảo mật</h6>
+                    <h6 class="text-white bold-4 pb10">Quy định về bảo hành</h6>
+                </div>
+                <div class="column col-3 col-sm-12">
+                    <div class="text-white pb10 text-h6 bold-6 text-uppercase">Đăng Ký Nhận Email</div>
+                    <div class="ngang mb10"></div>
+                    <div class="py10">
+                        <input type="text" class="border-none" placeholder="Nhập email của bạn"><button><i
+                                class="ti-search"></i></button></input>
+                    </div>
+                    <div class="d-flex pb10">
+                        <div class="p-inline"><img src="img/m1.png"></div>
+                        <div class="p-inline text-white px-2">Visit Today : 58</div>
+                    </div>
+                    <div class="d-flex pb10">
+                        <div class="p-inline"><img src="img/m2.png"></div>
+                        <div class="p-inline text-white px-2">Total Visit : 70389</div>
+                    </div>
+                    <div class="d-flex pb10">
+                        <div class="p-inline"><img src="img/m1.png"></div>
+                        <div class="p-inline text-white px-2">Who's Online : 6</div>
+                    </div>
+                </div>
+                <div class="column col-3 col-sm-12">
+                    <div class="text-white pb10 text-h6 bold-6 text-uppercase">Facebook</div>
+                    <div class="ngang mb10"></div>
+                    <iframe
+                        src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FInoxBliroVN%2Fposts%2Fpfbid02VTxUfDfG9oeAzNBQTUxtEZnY6anDRDC8tuWsgk3MaUzWYjQZCcoBFR4UNH7BoKhnl&show_text=true&width=200"
+                        width="320" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                        allowfullscreen="true"
+                        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                </div>
+            </div>
+            <div class="text-white text-center pb30">© 2018 BLIRO. All Rights Reserved. Design by
+                <strong>Hitime</strong>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

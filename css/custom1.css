@@ -1,0 +1,269 @@
+/* ////////////////////////////////////////////////////////////////////////// */
+ /* Chỉnh sửa css ở đây  */
+ /* ////////////////////////////////////////////////////////////////////////// */
+ section{padding:0px !important ;margin-bottom: 0px !important}
+/* Khung search  */
+.form-search {width: 350px;border-radius: 6px;background-color: white;overflow: hidden;}
+.form-search input {flex: 1;outline: none;border: none;padding: 10px 12px;}
+.form-search button {outline: none;border: none;background-color: white;padding: 0 10px;}
+
+/* Header  */
+#header-desktop{
+    background-color: #f5f5f5;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+#header-desktop  img{
+     width: 250px;
+     max-width: 75%;
+}
+.search button{outline: none;border: none; background: none;}
+.search button:hover{color: darkgoldenrod;}
+#header-desktop a:hover {color: darkgoldenrod !important;outline: 0;text-decoration: none !important;}
+
+
+#header-mobile {box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);}
+
+
+/* Main-menu  */
+#main-menu .item {padding: 10px;letter-spacing: 1px;text-transform: uppercase;}
+#main-menu .item a {color: white !important;font-size: 1.1rem;font-weight: 600;}
+#main-menu .item a:hover {cursor: pointer;color: var(--primary-hover) !important;}
+
+/* Slider */
+
+#slides{
+    max-width: 10000px;
+    position: relative;
+    margin: auto;
+    top:0;
+}
+#slides img{width: 100%;}
+#slides img {vertical-align: middle;}
+.dot {
+    cursor: pointer;
+    height: 16px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    bottom: 31px;
+    position: absolute;
+  }
+  
+.active, .dot:hover {
+    background-color: #717171;
+  }
+.fade{
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+  
+@keyframes fade {
+    from {opacity: 2} 
+    to {opacity: 1}
+}
+
+/* Các mục của trang chủ */
+.title-home{position: relative; padding-bottom: 10px; margin-bottom: 15px;}
+.title-home::after{position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 2px;
+    background-color: var(--primary);
+}
+.title-home h3{
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+
+/* Footer  */
+footer {background-color: #333 !important; color: white;}
+footer a {color: white !important;}
+footer a:hover {color: var(--primary-hover) !important;}
+footer .title-ft {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+footer ul li{
+    font-size: 1rem;
+    margin-top: 0;
+    padding: 4px 0;
+}
+#footer-bottom{background-color: black; font-size: 0.9rem;}
+
+
+
+
+/* Product Details  */
+#product-detail .list-img img{
+    width: 100px;
+}
+#selected-content .description .title{
+    background-color: var(--primary);
+    color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px;
+    position: relative;
+  }
+  #selected-content  .body{
+    padding: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #f5f5f5;
+  }
+  #selected-content .description .title::before{
+    content: '';
+    position: absolute;
+    background-color: white;
+      height: 3px;
+      width: 80px;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 0;
+  }
+ /*---------------------------------------------contact-----------------------------------------------------*/ 
+/*contact*/ 
+#contact .title{
+    border-bottom:1px solid blue !important;
+}
+#contact .d-flex {border-bottom:0.5px solid gainsboro !important;}
+#contact .border { border: none !important}
+.fb{background-color: darkblue;}
+.in{background-color: darkgreen;}
+.tt{background-color: skyblue;}
+.rd{background-color: red;}
+.utu{background-color: darkred;}
+.send{padding-left: 15px;padding-right: 15px; padding-top: 5px;padding-bottom: 5px; background-color: black ;}
+
+/*---------------------------------------------index-----------------------------------------------------*/ 
+/*info*/ 
+#info {background-color: rgb(219, 239, 238);}
+.ti-mobile{font-size: 20px;}
+.ti-exchange-vertical{font-size: 20px;}
+.ti-alarm-clock{font-size: 20px;}
+#info .border { border: solid 1px black;}
+#info p{padding-bottom: 5px !important; margin: 0 !important}
+.w30{width: 30% !important}
+/*product*/
+#product{background-color: rgb(21, 187, 199);}
+#product p{margin-bottom: 0;}
+#product .name{background-color: rgb(181, 222, 225);}
+/*list-product*/
+#list-product .d-flex{border-bottom:0.5px solid rgb(21, 187, 199) !important;}
+#list-product .name{background-color: rgb(21, 187, 199);width: 220px;font-size: 24px;text-align: center;}
+#list-product p{margin-bottom: 0;}
+.text-yellow{color:darkgoldenrod;}
+.w20{width: 20% !important}
+#list-product .border{border: 0.5px  !important; border-top:none !important; border-color:#abb8c3 !important; box-shadow: 0 1px 3px -2px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%); }
+#list-product p{margin-bottom: 0;}
+.bd-right {border-right: 1px solid gray;}
+.border{border:1px solid darkgoldenrod !important}
+.text-do{color:#fec20f}
+/*intro*/
+#intro {background: url(https://inoxbliro.com/wp-content/uploads/2019/09/wel-e-to-dunexo-ceramic-digital-tiles-digital-wall-tiles-unique-ceramic-tiles-banner-of-ceramic-tiles-banner.jpg);padding-top: 50px; padding-bottom: 50px; position: relative;}
+#intro p{margin: 0;}
+.px60{padding-right: 60px; padding-left: 60px;}
+#intro .all{background-color: white; color:black;}
+#intro .all:hover{border: 1px solid white;color:#f5f5f5 !important; background: none; opacity: 1;}
+/*reason*/
+#reason p{margin: 0;}
+#reason .text-h4{font-size: 30px !important; font-weight: 600; }
+#reason .all{background-color: white !important; color: black !important; border: 2px solid black !important; }
+#reason .all:hover{background-color: black; color:white; border: 1px solid black;}
+#post .d-flex {border-bottom:0.5px solid gainsboro !important;}
+.border-bottom{display: inline-block; border-bottom: 1px solid blue !important;}
+#item-nb .pal:hover{border: 1px solid rgba(0, 0, 0, 0.05);box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.2);
+    color: #ec817d;
+    text-decoration: none;
+    text-shadow: -1px -1px 0 #c2211c;
+    transition: all 250ms linear;}
+#post p{margin: 0;}
+@media only screen and (max-width: 480px) {
+    #product .title{padding-top: 20px; font-size:25px;}
+    #product .pb60{padding-bottom: 10px;}
+    #list-product .name{margin-top: 20px;}
+    #intro .text-h6{font-size: 10px;}
+    #intro .text-h7{font-size: 15px; padding-bottom: 20px;}
+    #intro .px60{padding: 0 !important}
+    #reason p{margin-bottom: 0px;}
+    #reason .pb10{padding-bottom: 0px;}
+    #reason .text-h4{font-size: 80px !important}
+}
+
+#footer{background-image: url(	https://inoxbliro.com/wp-content/uploads/2019/09/home_tiles_footer_bg.png);}
+#footer .text-white{color: #ccc !important}
+#footer input{width: 150px; height: 40px; border: none;}
+#footer .ti-search{color:#f5f5f5}
+#footer button{width: 42px; height: 44px; background-color: #fec20f;}
+/*---------------------------------------------intro-----------------------------------------------------*/
+/*content-intro*/
+#banner-intro{background-image: url(https://inoxbliro.com/wp-content/uploads/2020/05/giới-thiệu-1400x560.jpg); padding-top: 50px; padding-bottom: 50px; position: relative;}
+#banner-intro .title{font-size: 65px; font-weight: 400;}
+#banner-intro .text-h5{font-size: 1.13rem;font-weight: 350;}
+.overlay{ background-color: black; position: absolute; width: 100%;opacity: 0.50;height:100%;}
+.zindex{z-index:99; position: relative;}
+.ngang{background-color: #fec20f;max-width: 50px;height: 2px;}
+.mxat{margin-left: auto; margin-right: auto;}
+
+/*---------------------------------------------post-----------------------------------------------------*/
+#list-item .text-h6{font-size: 0.8rem;font-weight: 850;}
+#list-item .text-h7{font-size: 0.75rem;font-weight: 450;}
+#list-item  p{margin: 0;}
+.myat{margin-bottom: auto; margin-top: auto;}
+.tag{border-color: darkblue !important; color: darkblue !important}
+
+/*---------------------------------------------project-----------------------------------------------------*/
+#pannel{background: #ececec;}
+#pannel  p{margin: 0;}
+.dropdown-toggle{ border: 1px solid black !important;padding-right: 100px !important; border-radius: 49px !important;}
+
+
+/*---------------------------------------------nhabep-----------------------------------------------------*/
+.list .border{border: 0.5px  !important; border-top:none !important; border-color:#abb8c3 !important; box-shadow: 0 1px 3px -2px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%); }
+#item-nb p{margin:0}
+.ds{border-bottom: 0.2px solid #abb8c3 ;}
+.text-h8{font-size:13px;}
+button:hover{background-color: black; color:white}
+@media only screen and (max-width: 480px) {
+    
+
+}
+/*---------------------------------------------mobi-----------------------------------------------------*/
+
+/* Mobile custom */
+@media only screen and (max-width: 480px) {
+    .item-pannel{text-align: center; display: inline-block;}
+    .btn-group{text-align: center; display: inline-block;}
+    .name{display: block;}
+    #contact .w50 {width: 100% !important}
+    #contact .title{padding-bottom: 20px;}
+    #contact .pb20{padding-bottom: 0;}
+    #footer .text-h6{font-size: 15px; padding-top: 5px; padding-bottom: 10px;}
+    #footer iframe{width: 100% !important; height:auto ;}
+    #footer input{width: 100% !important; margin-bottom: 5px;}
+    #banner-intro .title{font-size: 40px; font-weight: 400;}
+    #banner-intro .text-h5{font-size: 0.79rem;font-weight: 460;}
+    #banner-intro p{ margin: 0;}
+    #content-intro .text-h4{font-size:15px;font-weight: 660; padding-top: 25px; padding-bottom: 5px;}
+    #content-intro .text-h5{font-size:15px;font-weight: 400; padding-bottom: 25px;}
+    #content-intro p{ margin: 0;}
+    .text-h4{font-size: 15px !important;font-weight: 600 !important}
+    #intro .container{padding-top: 10px; padding-bottom: 30px;}
+    #reason .container{padding-top: 20px; padding-bottom: 20px;}
+    #reason .column{margin-bottom: 10px;}
+    #reason .text-h4{font-size: 18px !important}
+    #reason{padding-bottom: 20px; padding: 10px;}
+    #item-nb .container{padding-top: 10px; padding-bottom: 20px; }
+    #post .container{padding-top: 10px; padding-bottom: 10px;}
+    #contact .container{padding-top: 10px; padding-bottom: 20px;}
+    
+}
